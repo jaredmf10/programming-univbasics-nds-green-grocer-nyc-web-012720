@@ -55,6 +55,7 @@ counter = 0
     end
     counter += 1
   end
+  cart
 end
 
 def apply_clearance(cart)
