@@ -49,6 +49,7 @@ counter = 0
           :count => coupons[counter][:num],
           :clearance => cart_item[:clearance]
         }
+        cart << cart_item_with_coupon
       end
     end
     counter += 1
